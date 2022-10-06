@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebc2ee;
+}
+h1 {
+color: #f1deff;
+
+}
+
+Label {
+display: Block;
+color: #ffffff;
+
+}
+
+form {
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 30px;
+    clear: both;
+    color: solid teal;
+}
+#content {
+    text-align: center;  
+    background-color: #7ea5dc; 
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 375px;
+    margin: 10% auto 10% auto   
+}
+button {
+background-color: #003D5B;
+margin: 5px;
+border-radius: 10px;
+color: white
+}
+#button:hover {
+    background-color: red;
+    border-radius: 15px;
+
+}
+h1:hover span {
+    display:none
+  }
+  h1:hover:before {
+    content:"Black Market Email List";
+    color:red;
+  }
+body:hover {
+background-color: black;
+}
+Form:hover {
+background-color: grey;
+}
+#content:hover {
+    background-color: grey;
+}
